@@ -4,6 +4,9 @@ public class DataTypes {
 
 	public static void main(String[] args) {
 		
+		
+		//data types: strict type
+		int x=10;
 
 	}
 
