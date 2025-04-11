@@ -19,9 +19,17 @@ public class CharConcept {
 		
 		
 		//ASCII values:
+		//a-z = 97 to 122
+		//A-Z = 65 to 90
+		//0-9 = 48 to 57
 		
+		System.out.println('a' + '0');//97+48
 		
+		char c3='e';
+		System.out.println((int)c3);//101
 		
+		char c4= ' ';
+		System.out.println((int)c4);
 		
 		
 	}
