@@ -1,7 +1,5 @@
 package Java_03_CharType_ASCIIValues_StringDataType_StringConcatenation_ArithmaticOperators;
-
 public class CharConcept {
-
 	public static void main(String[] args) {
 		
 		int a = 20;
@@ -29,9 +27,22 @@ public class CharConcept {
 		System.out.println((int)c3);//101
 		
 		char c4= ' ';
-		System.out.println((int)c4);
+		System.out.println((int)c4); //32
+		
+		int p='a';
+		System.out.println(p); //97
 		
 		
+		int q=66;
+		System.out.println((char)q); //B
+		
+		//unicode --> ascii code + other symbolic + special chars
+		
+		char t = 67;
+		System.out.println(t);
+		
+		char t1= 15006;
+		System.out.println(t1);
 	}
 
 }
