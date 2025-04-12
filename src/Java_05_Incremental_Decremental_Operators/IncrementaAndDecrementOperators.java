@@ -64,7 +64,25 @@ public class IncrementaAndDecrementOperators {
 		int num = -50;
 		System.out.println(--num); //-51
 		System.out.println(num); //-51
-
+		
+		double d1=1.1;
+		double d2=d1++;
+		
+		System.out.println(d1); //2.1
+		System.out.println(d2); //1.1
+		
+		
+		//various famous interview question
+		char ch='a';
+		char bh=ch++;
+		System.out.println(ch); //b
+		System.out.println(bh); //a
+		
+		
+		int nu =10;
+		int um =nu++;
+		System.out.println(nu);//11
+		System.out.println(um);//10
 	}
 
 }
