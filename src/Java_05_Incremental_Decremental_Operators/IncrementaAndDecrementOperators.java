@@ -25,7 +25,7 @@ public class IncrementaAndDecrementOperators {
 		System.out.println(w);//-56
 				
 		
-		//pre increment:
+		//2.pre increment:
 		int s =1;
 		int q=++s;
 		System.out.println(q); //2
@@ -37,6 +37,33 @@ public class IncrementaAndDecrementOperators {
 		System.out.println(t1); //-98
 		System.out.println(t2); //-98
 		
+		
+		//3. post decrement :
+		int p=2;
+		int k=p--;
+		System.out.println(p); //1
+		System.out.println(k); //2
+		
+		int f1=-999;
+		int f2=f1--;
+		System.out.println(f1); //-1000
+		System.out.println(f2); //-999
+		
+		
+		//4. pre decrement:
+		int i=2;
+		int j=--i;
+		System.out.println(i); //1
+		System.out.println(j); //1
+		
+		
+		int total = 100;
+		System.out.println(++total); //101
+		System.out.println(total); //101
+		
+		int num = -50;
+		System.out.println(--num); //-51
+		System.out.println(num); //-51
 
 	}
 
