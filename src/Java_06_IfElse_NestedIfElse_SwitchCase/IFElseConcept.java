@@ -9,6 +9,7 @@ public class IFElseConcept {
 		
 		// == comparision operator to compare two primitive data types
 		// = assignment operator
+		// to compare two strings (non primitive) data types -- we have to use .equals()
 		
 		if(a==b) {
 			System.out.println("pass");
@@ -35,16 +36,69 @@ public class IFElseConcept {
 		}
 		
 		System.out.println("--------------------");	
-		int number = 90;
+		//if-if-if else: nested if else
+		int number = 20 ;
 		if(number <= 100) {
 			if(number>=95) {
 				System.out.println("Grade A");
+					if(number == 100) {
+						System.out.println("Grade A++");
+						System.out.println("eligible for MBA");
+					}
 			}
 			else {
-				System.out.println("Grade B");
+				if(number >=75) {
+					System.out.println("Grade B");
+				}
+				else {
+					System.out.println("Grade C");
+				}
 			}
 		}
+		else {
+			System.out.println("...invalid marks...");
+		}
+		System.out.println("--------------------");	
 		
+//		String browser = "chrome";
+//		
+//		if(browser.equals("chrome")) {
+//			System.out.println("launch chrome");
+//		}
+//		if(browser.equals("firefox")) {
+//			System.out.println("launch chrome");
+//		}
+//		if(browser.equals("edge")) {
+//			System.out.println("launch chrome");
+//		}
+//		if(browser.equals("safari")) {
+//			System.out.println("launch chrome");
+//		}
+//		else {
+//			System.out.println("invalid browser... pls pass the right browser name...");
+//		}
+		
+		
+		
+		String browser = "safari";
+		
+		if(browser.equals("chrome")) {
+			System.out.println("launch chrome");
+		} 
+		else if(browser.equals("firefox")) {
+			System.out.println(" launch firefox");
+		}
+		else if(browser.equals("edge")) {
+			System.out.println("launch edge");
+		}
+		else if(browser.equals("safari")) {
+			System.out.println("launch safari");
+		}
+		else {
+			System.out.println("invalid browser.. pls pass the right browser name...");
+		}
+
+			
 		
 	}
 
