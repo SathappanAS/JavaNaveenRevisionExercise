@@ -16,7 +16,36 @@ public class IFElseConcept {
 		else {
 			System.out.println("fail");
 		}
+		
+//		if(true) {
+//			System.out.println("hii");
+//		}
+//		else {//dead code
+//			System.out.println("bye");
+//		}
 
+		System.out.println("--------------------");
+		boolean flag=true;
+		
+		if(flag) {
+			System.out.println("hello");
+		}
+		else {
+			System.out.println("bye");
+		}
+		
+		System.out.println("--------------------");	
+		int number = 90;
+		if(number <= 100) {
+			if(number>=95) {
+				System.out.println("Grade A");
+			}
+			else {
+				System.out.println("Grade B");
+			}
+		}
+		
+		
 	}
 
 }
