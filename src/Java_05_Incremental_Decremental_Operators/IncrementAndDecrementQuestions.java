@@ -31,12 +31,26 @@ public class IncrementAndDecrementQuestions {
 //		System.out.println("====================================");
 		
 		
-		int i=19, j=29, k=9;
-		int m = i-- - j-- - k--;
-		System.out.println("i= " +i); //18
-		System.out.println("j= " +j); //28
-		System.out.println("k= " +k); //8
-		System.out.println(m); //-19
+//		int i=19, j=29, k=9;
+//		int m = i-- - j-- - k--;
+//		System.out.println("i= " +i); //18
+//		System.out.println("j= " +j); //28
+//		System.out.println("k= " +k); //8
+//		System.out.println(m); //-19
+		
+		
+		int m=0,n=0;
+		int p= --m * --n * n-- * m--;
+		System.out.println(p); //1
+		System.out.println(m); //-2
+		System.out.println(n); //-2
+		
+		char v=97;
+		int z=v++ - ++v;
+		System.out.println(v);//c
+		System.out.println(z);//-2
+		
+		
 		
 	}
 
