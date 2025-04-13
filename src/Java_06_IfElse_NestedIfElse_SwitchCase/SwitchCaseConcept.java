@@ -4,9 +4,9 @@ public class SwitchCaseConcept {
 
 	public static void main(String[] args) {
 		
-		String browser = "safari";
+		String browser = " CHROME ";
 		
-		switch (browser) {
+		switch (browser.toLowerCase().trim()) {
 		case "chrome":
 			System.out.println("launch chrome");
 			break;
