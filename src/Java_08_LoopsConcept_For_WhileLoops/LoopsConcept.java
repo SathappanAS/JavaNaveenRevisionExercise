@@ -10,9 +10,19 @@ public class LoopsConcept {
 		int i=1; //initialization
 		while(i<=10) {  //condition checking
 			System.out.println(i);
-			i++;
+			//i++;
+			//++i;
+			i=i+1;
 		}
 
+		//
+//		while(true) {
+//			System.out.println("hi");
+//		}
+		
+		
+		
+		
 	}
 
 }
