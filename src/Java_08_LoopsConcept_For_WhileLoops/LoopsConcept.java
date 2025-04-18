@@ -49,6 +49,16 @@ public class LoopsConcept {
 		//1 to 10
 		for(int k=1;k<=10;k++) {
 			System.out.println(k);
+			//k++;
+			//++k;
+			//k=k+1;
+		}
+		
+		
+		System.out.println("===========================");
+		for(;;) {
+			System.out.println("Bye!!");
+			break;
 		}
 		
 	}
