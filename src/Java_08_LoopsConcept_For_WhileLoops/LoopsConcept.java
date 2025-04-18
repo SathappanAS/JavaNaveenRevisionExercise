@@ -30,6 +30,27 @@ public class LoopsConcept {
 			p++;
 		}
 
+		//odd/even
+		
+		int t=1;
+		while(t<=10) {
+			if(t%2==0) {
+				System.out.println(t + " is an even number");
+			}
+			else {
+				System.out.println(t + " is an old number");
+			}
+			t++;
+		}
+		
+		System.out.println("=================For Loop ==========");
+		
+		//for loop:
+		//1 to 10
+		for(int k=1;k<=10;k++) {
+			System.out.println(k);
+		}
+		
 	}
 
 }
