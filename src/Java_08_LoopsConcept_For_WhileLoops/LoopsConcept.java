@@ -61,6 +61,41 @@ public class LoopsConcept {
 			break;
 		}
 		
+		//
+		System.out.println("===========================");
+		for(int n=10;n>=1;n--) {
+			System.out.println(n);//10 9 8 7 6 5 3 2 1
+		}
+		System.out.println("===========================");
+		for (int g=1;g<=10;g++) {
+			System.out.println(g);
+			if(g%5==0) {
+				System.out.println("hello selenium");
+				break;
+			}
+		}
+		System.out.println("===========================");
+		
+		
+		for(byte b=1;b<=5;b++) {
+			System.out.println(b);
+		}
+		
+		
+		System.out.println("===========================");
+		for(char ch='a';ch<='z';ch++) {
+			System.out.println(ch + " = " + (int)ch);
+		}
+		
+		System.out.println("===========================");
+		
+		for(double d=1.0;d<=5.0;d++) {
+			System.out.println(d);
+		}
+		
+		System.out.println("===========================");
+		
+		
 	}
 
 }
