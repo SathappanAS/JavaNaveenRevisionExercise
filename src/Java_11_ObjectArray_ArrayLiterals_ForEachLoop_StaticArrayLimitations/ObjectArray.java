@@ -36,6 +36,7 @@ public class ObjectArray {
 		}
 		
 		//ArrayList will increase and decrease the value automatically
+		//ArrayList is the dynamic array 
 	}
 
 }
