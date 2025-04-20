@@ -59,6 +59,19 @@ public class TimeComplexity {
 		//(1+n+n)(1+n+n)(1+n+n+n)==>(1+2n)(1+2n)(1+3n)===>n^3+n2+n
 		//cubic equation
 		
+		
+		//
+		//n --> n/2
+		//n/4
+		
+		//n/k ; k=2
+		//T =n/k
+		// log T = log(n/k)
+		// log T = log n - log k ; base=k=2
+		//log T = log n -1
+		//log T = log n
+		//T = log n
+				
 	}
 
 }
