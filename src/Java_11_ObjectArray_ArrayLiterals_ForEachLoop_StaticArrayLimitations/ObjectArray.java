@@ -34,7 +34,8 @@ public class ObjectArray {
 		for (Object e : empData) {
 			System.out.println(e);
 		}
-
+		
+		//ArrayList will increase and decrease the value automatically
 	}
 
 }
