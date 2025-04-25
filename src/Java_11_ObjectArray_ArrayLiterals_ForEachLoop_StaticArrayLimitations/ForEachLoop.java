@@ -26,7 +26,7 @@ public class ForEachLoop {
 			System.out.println(browser[k]);
 		}
 		System.out.println("--------------*****--------");
-		// reverse the arrya : using for each loop
+		// reverse the array : using for each loop
 
 		int c = browser.length - 1;
 		for (String e : browser) {

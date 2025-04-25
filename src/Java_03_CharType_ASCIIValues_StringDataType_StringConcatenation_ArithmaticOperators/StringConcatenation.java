@@ -107,9 +107,9 @@ public class StringConcatenation {
 		System.out.println("---------------");
 		
 		
-		System.out.println(Integer.MAX_VALUE);//2147483647+1=2147483648
-		long t1 = Integer.MAX_VALUE;
-		System.out.println(t1+1);//2147483648
+//		System.out.println(Integer.MAX_VALUE);//2147483647+1=2147483648
+//		long t1 = Integer.MAX_VALUE;
+//		System.out.println(t1+1);//2147483648
 		
 	}
 
